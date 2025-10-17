@@ -61,7 +61,6 @@ body {
     margin-bottom: 72px;
 }
 
-/* HEADER */
 /* #region HEADER */
 
 .header {
@@ -171,7 +170,7 @@ body {
 
 /* #endregion */
 
-/* Hero */
+
 /* #region Hero */
 .hero {
     background: #2e2f42;
@@ -224,7 +223,7 @@ body {
 
 /* #endregion*/
 
-/* About */
+
 /* #region About */
 .visually-hidden {
     position: absolute;
@@ -283,7 +282,7 @@ body {
 
 /* #endregion */
 
-/* Team */
+
 /* #region Team */
 .team {
     background: #f4f4fd;
@@ -366,7 +365,7 @@ body {
 
 /* #endregion*/
 
-/* Portfolio */
+
 /* #region Portfolio */
 .portfolio {}
 
@@ -444,7 +443,7 @@ body {
 
 /* #endregion*/
 
-/* Footer */
+
 /* #region Footer */
 .footer {
     background-color: #2e2f42;
@@ -524,5 +523,30 @@ body {
 
 /* #endregion*/
 
-/* #region Footer */
+/* #region Modal */
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+}
+
+.modal {
+    width: 408px;
+    min-height: 584px;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fcfcfc;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/* #endregion*/
+
+/* #region */
 /* #endregion*/
