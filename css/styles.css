@@ -557,7 +557,6 @@ body:has(.backdrop.is-open) {
     line-height: 2;
     letter-spacing: 0.04em;
     color: #ffffff;
-    margin-right: 24px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
@@ -717,7 +716,7 @@ body:has(.backdrop.is-open) {
     fill: #4d5ae5;
 }
 
-.modal-checked {
+.modal-textarea {
     margin-bottom: 16px;
 }
 
@@ -729,7 +728,6 @@ body:has(.backdrop.is-open) {
     height: 120px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-bottom: 16px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
